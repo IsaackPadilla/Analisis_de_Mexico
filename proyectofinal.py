@@ -1,4 +1,3 @@
-
 import pandas as pd
 import re
 import numpy as np
@@ -294,10 +293,7 @@ for r in listafuncion:
     informacion_a_graficar3.append(df_tasa_masc)
 
 
-print('Dale ejecutar a los siquientes 2 codigos')
 for a in range(0,len(informacion_a_graficar3)):
     print(informacion_a_graficar3[a])
 #informacion_a_graficar2
 
-# Quedamos con 4 variables, informacioncompleta es la tabla completa de poblacion, informacion_a_graficar es la informacion con 2 variables (podriamos decirles filtros)
-# e informacion_a_graficar2 es la informacion con 4 variables (o filtros, es igual)
